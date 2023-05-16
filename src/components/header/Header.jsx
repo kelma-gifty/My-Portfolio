@@ -2,17 +2,17 @@ import React from 'react'
 import './header.css'
 import './CTA'
 import CTA from './CTA' //here we import the CTA component inside our header
-import me from '../../assets/Snapchat-1127911749-removebg-preview.png'
+import me from '../../assets/kit.jpg'
 import HeaderSocial from './HeaderSocial' //import of headerSocial component
 export const Header = () => {
 return (
 <header>
 <div className='container header__container'>
 <h5>Hello I'm</h5>
-<h1>Brown Alden Djomo</h1>
-<h5 className='text-light'>Software Engineer </h5>
-<CTA/>//here we are using the imported CTA component
-<HeaderSocial/>//same here
+<h1>Kombou Komga Murielle Nahomy</h1>
+<h5 className='text-light'>Engineering student</h5>
+<CTA/>
+<HeaderSocial/>                                         
 <div className='my_image'>
 <img src={me} alt='my image'/>
 </div>
